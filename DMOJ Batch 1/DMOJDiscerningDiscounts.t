@@ -1,21 +1,17 @@
-var N : int     %Num of Items
-var T : int     %Thereshold
+var price : int
+var discount : int
+var discounted : real
+var able : int := 0
+var items : int
+var threshold : int
 
-get N
-get T
+get items, threshold
 
-var c : array 1 .. N of int
-var d : array 1 .. N of int
-var K : int := 0 %Accumulator Items
-var i : int := 1 %IndexCount
-
-loop
-    get c(i)
-    get d(i)
-    if (c(i) * (1-(d(i)/100))) <= T then
-	K += 1
+for i : 1 .. items
+    get price, discount
+    discounted := price * (1-(discount/100))
+    if discounted <= threshold then
+	able += 1
     end if
-    exit when i = N
-    i += 1
-end loop
-put K
+end for
+put able

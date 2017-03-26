@@ -1,58 +1,14 @@
-const ARRAYLIMIT : int := 41
+const ARRAYLIMIT : int := 54
 var counter : int := 1
 var numbers : int := 0
 var m, n : int := 0
-var database : array 1 .. ARRAYLIMIT of int
-database (1) := 1
-database (2) := 8
-database (3) := 11
-database (4) := 69
-database (5) := 88
-database (6) := 96
-database (7) := 111
-database (8) := 181
-database (9) := 609
-database (10) := 808
-database (11) := 818
-database (12) := 888
-database (13) := 906
-database (14) := 1001
-database (15) := 1111
-database (16) := 1691
-database (17) := 1881
-database (18) := 1961
-database (19) := 6009
-database (20) := 6119
-database (21) := 6699
-database (22) := 6889
-database (23) := 6969
-database (24) := 8008
-database (25) := 8118
-database (26) := 8698
-database (27) := 8888
-database (28) := 8968
-database (29) := 9006
-database (30) := 9116
-database (31) := 9696
-database (32) := 9886
-database (33) := 9966
-database (34) := 10001
-database (35) := 10801
-database (36) := 11011
-database (37) := 11111
-database (38) := 11811
-database (39) := 16091
-database (40) := 16191
-database (41) := 16891
-
+var database : array 1 .. ARRAYLIMIT of int := init(0, 1, 8, 11, 69, 88, 96, 101, 111, 181, 609, 619, 689, 808, 818, 888, 906, 916, 986, 1001, 1111, 1691, 1881, 1961, 6009, 6119, 6699, 6889, 6969, 8008, 8118, 8698, 8888, 8968, 9006, 9116, 9696, 9886, 9966, 10001, 10101, 10801, 11011, 11111, 11811, 16091 ,16191,16891,18081,18181,18881,19061,19161,19861)
 get m
 get n
 
-loop
-    if database (counter) >= m and database (counter) <= n then
-	numbers += 1
+for i : 1 .. ARRAYLIMIT
+    if database(i) >= m and database(i) <= n then
+	numbers+=1
     end if
-    counter += 1
-    exit when counter = ARRAYLIMIT
-end loop
+end for
 put numbers
