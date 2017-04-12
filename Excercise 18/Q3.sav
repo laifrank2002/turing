@@ -1,0 +1,14 @@
+var input
+var Rinput
+
+put "Prompt sub i "..
+get input
+
+function reverse (word : string) : string
+    var newword : string := ""
+    for decreasing i : length(word) .. 1
+	newword += word(i)
+    end for
+end reverse
+
+function isPalindrome (word : string, reverseWord : string) : boolean
