@@ -55,8 +55,9 @@ end inchTextField_handle
 procedure initScreen
 
     % Configure the run window.
-
+    
     winID := Window.Open (winIDArgs)
+    Window.Set(winID,"title: Temperature Convert")
     GUI.SetBackgroundColour (BACKGROUND_COLOUR)
     % Buttons
     cminchButton := GUI.CreateButton (75, 95, 50, "Centimeters to Inch", cminchButton_handle)
