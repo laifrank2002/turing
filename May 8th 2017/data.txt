@@ -1,0 +1,10 @@
+Electronics 100
+Geese 150
+Rocks 510
+Lambs 510
+Rotterdames 150
+ThousandIslandSauce 50
+Inventories 500
+Bag 150
+Dollars 1500
+Thousand 500

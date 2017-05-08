@@ -15,8 +15,8 @@ var textBox : int
 var inputTextField : int
 var outputFileID : int
 % Center
-const CENTER := 75
-const CANVAS_SHIFT := 200
+const CENTER := 80
+const CANVAS_SHIFT := 15
 
 var filePos : int := 0
 % Forward procedures
@@ -58,10 +58,12 @@ end mainScreen
 
 procedure draw
     const shiftBox2 := 50
-    GUI.DrawFillBox (canvas, CENTER, CENTER + 25, CENTER - 55, CENTER - 25, 40)
-    GUI.DrawFillBox (canvas, shiftBox2 + CENTER, shiftBox2 + CENTER + 25, shiftBox2 + CENTER - 55, shiftBox2 + CENTER - 25, 44)
-    GUI.DrawFillBox (canvas, shiftBox2 + CENTER, CENTER + 25, shiftBox2 + CENTER - 55, CENTER - 25, 52)
-    GUI.DrawFillBox (canvas, CENTER, shiftBox2 + CENTER + 25, CENTER - 55,shiftBox2 +  CENTER - 25, 10)
+    const shiftLogo := -15
+    GUI.DrawFillBox (canvas, 0, 0, GUI.GetHeight (canvas), GUI.GetWidth (canvas), 15)
+    GUI.DrawFillBox (canvas, CENTER, shiftLogo + CENTER + 25, CENTER - 55, shiftLogo + CENTER - 25, 40)
+    GUI.DrawFillBox (canvas, shiftBox2 + CENTER, shiftLogo + shiftBox2 + CENTER + 25, shiftBox2 + CENTER - 55, shiftLogo + shiftBox2 + CENTER - 25, 44)
+    GUI.DrawFillBox (canvas, shiftBox2 + CENTER, shiftLogo + CENTER + 25, shiftBox2 + CENTER - 55, shiftLogo + CENTER - 25, 52)
+    GUI.DrawFillBox (canvas, CENTER, shiftLogo + shiftBox2 + CENTER + 25, CENTER - 55, shiftBox2 + shiftLogo + CENTER - 25, 10)
     GUI.DrawFillOval (canvas, CENTER, CENTER + 5, 40, 20, 54)
     GUI.DrawFillOval (canvas, CENTER, CENTER + 5, 20, 10, white)
     GUI.DrawFillOval (canvas, CENTER, CENTER + 25, 15, 30, brightblue)
@@ -73,6 +75,8 @@ end draw
 % main program
 mainScreen
 draw
-loop
-    exit when GUI.ProcessEvent
-end loop
+/*
+ loop
+ exit when GUI.ProcessEvent
+ end loop
+ */

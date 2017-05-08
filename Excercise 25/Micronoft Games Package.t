@@ -15,14 +15,30 @@ var backButton : int
 var button : int
 var numberTextField : int
 var drawCircle : int
-
+% paint
+var oldx, oldy : int
+var canvas : int % The drawing canvas.
+var clear : int % The clear button.
 % misc
 var number : int
 var buttony : int := 20
 var game : int := 0
 % procedures
-
-
+% paint
+procedure MouseDown (mx, my : int)
+    oldx := mx
+    oldy := my
+end MouseDown
+procedure MouseDrag (mx, my : int)
+    GUI.DrawLine (canvas, oldx, oldy, mx, my, colorfg)
+    oldx := mx
+    oldy := my
+end MouseDrag
+procedure DoNothing (mx, my : int)
+end DoNothing
+procedure Clear
+    GUI.DrawCls (canvas)
+end Clear
 
 
 % hide main
@@ -32,7 +48,9 @@ procedure hide_main
     GUI.Hide (game1)
     GUI.Hide (game2)
     GUI.Hide (game3)
+    GUI.Hide (paint)
     GUI.Hide (quitButton)
+    
     GUI.Show (backButton)
 end hide_main
 % game 1 procedure
@@ -90,11 +108,22 @@ procedure game3_start
     hide_main
     drawCircle := GUI.CreateButton (5, 35, 50, "Draw Circle", drawCircle_handle)
 end game3_start
-
+% paint
+procedure paint_handle
+    game := 4
+    hide_main
+    canvas := GUI.CreateCanvasFull (10, 30, maxx - 20, maxy - 40, 0,
+    MouseDown, MouseDrag, DoNothing)
+    clear := GUI.CreateButton (maxx div 2 - 120, 5, 40, "Clear", Clear)
+end paint_handle
 % back to main screen
 procedure back_mainScreen
     cls
     GUI.SetBackgroundColour (BACKGROUND_COLOUR)
+    if game = 4 then
+	GUI.Dispose(canvas)
+	GUI.Dispose(clear)
+    end if
     if game = 3 then
 	GUI.Dispose(drawCircle)
     end if
@@ -109,6 +138,7 @@ procedure back_mainScreen
     GUI.Show (game1)
     GUI.Show (game2)
     GUI.Show (game3)
+    GUI.Show (paint)
     GUI.Show (quitButton)
     Font.Draw("MicroNoft Games Package 2017",100, 100, font, black)
 end back_mainScreen
@@ -123,11 +153,13 @@ procedure mainScreen
     game1 := GUI.CreateButton (5, 10, 50, "Guessing Game", game1_start)
     game2 := GUI.CreateButton (215, 10, 50, "Growing Game", game2_start)
     game3 := GUI.CreateButton (5, 35, 50, "Draw Circle", game3_start)
+    paint := GUI.CreateButton (215, 35, 50, "Paint", paint_handle)
     % quit button
     backButton := GUI.CreateButton (145, 10, 10, "Back", back_mainScreen)
     GUI.Hide (backButton)
     quitButton := GUI.CreateButton (145, 10, 10, "Quit", GUI.Quit)
     Font.Draw("MicroNoft Games Package 2017",100, 100, font, black)
+    
 end mainScreen
 
 % main program
