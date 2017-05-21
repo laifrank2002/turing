@@ -1,0 +1,11 @@
+Job Title 
+Salary Per Annum
+Interactive Media Developer (Tech Co.)
+$100,000 - $120,000
+Interactive Media Developer (Other Co.)
+$50,000
+Software Developer
+$86,000
+Java Programmer
+$85,000 - $95,000
+
