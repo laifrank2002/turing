@@ -1,0 +1,10 @@
+header
+Computer Programmers and Interactive Media Developers (NOC 2174)
+n
+Welcome to CPIMD.txt, to begin, why not look around?
+link
+What is it?
+job/job_description.txt
+link
+What will I do?
+job/job_duties.txt

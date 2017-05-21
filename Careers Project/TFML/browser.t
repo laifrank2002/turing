@@ -1,6 +1,6 @@
 % Turing Browser
 % By Frank, Daniel, and Akshay
-% VERSION 0.830
+% VERSION 0.8315
 /*
  CHANGELOG
  ======_       ____    ______  ______
@@ -32,6 +32,10 @@
  links work!!!
  0.830
  links work better!!!
+ 0.831
+ minor changes
+ 0.8315
+ GUI compatable!
  */
 import GUI
 % consts
@@ -66,6 +70,7 @@ const BCOLOUR := 0
 % UI Data
 var addressBar : int
 var quitButton : int
+var reloadButton : int
 var y := maxy - 150
 var height := 0
 var pageRefresh : boolean := false
@@ -75,7 +80,7 @@ var pagefileId : int
 var picsNum : int := 0
 var pics : flexible array 1 .. picsNum of int
 % Links Data
-var pagesNum : int := 1
+var pagesNum : int := 0
 var pages : flexible array 1 .. pagesNum of string
 % Links x/y
 var links : int := 0
@@ -83,7 +88,6 @@ var xUpper : flexible array 1 .. links of int
 var xLower : flexible array 1 .. links of int
 var yUpper : flexible array 1 .. links of int
 var yLower : flexible array 1 .. links of int
-pages (pagesNum) := "pages/home.txt"
 % Buttons Data
 var buttons : flexible array 1 .. 0 of int
 var buttonsNum : int := 0
@@ -96,34 +100,49 @@ forward procedure resetPage
 forward procedure dummy
 
 % processes
-process checkMouse
-    var x, y, btnUpDown, btnNumber : int
-    loop
-	Mouse.ButtonWait ("down", x, y, btnNumber, btnUpDown)
-	if links > 0 then
-	    for i : 1 .. links
-		Draw.Box (xLower (i), yLower (i), xUpper (i), yUpper (i), black)
-		if x > xLower (i) and x < xUpper (i) and y > yLower (i) and y < yUpper (i) then
-		    GUI.SetText (addressBar, pages (i + 1))
-		    addressBar_handle (pages (i + 1))
-		    exit
-		end if
-	    end for
-	end if
-	exit when pageRefresh
-    end loop
+/*
+ process checkMouse
+ var x, y, btnUpDown, btnNumber : int
+ loop
+ Mouse.ButtonWait ("down", x, y, btnNumber, btnUpDown)
+ if links > 0 then
+ for i : 1 .. links
+ Draw.Box (xLower (i), yLower (i), xUpper (i), yUpper (i), black)
+ if x > xLower (i) and x < xUpper (i) and y > yLower (i) and y < yUpper (i) then
+ GUI.SetText (addressBar, pages (i))
+ addressBar_handle (pages (i))
+ exit
+ end if
+ end for
+ end if
+ exit when pageRefresh
+ end loop
+ end checkMouse
+ */
+procedure checkMouse (x, y : int)
+    if links > 0 then
+	for i : 1 .. links
+	    Draw.Box (xLower (i), yLower (i), xUpper (i), yUpper (i), black)
+	    if x > xLower (i) and x < xUpper (i) and y > yLower (i) and y < yUpper (i) then
+		GUI.SetText (addressBar, pages (i))
+		addressBar_handle (pages (i))
+		exit
+	    end if
+	end for
+    end if
 end checkMouse
-
 % loopy
 process GUILoop
     loop
 	exit when GUI.ProcessEvent
     end loop
 end GUILoop
-% concurrently plays music
+% concurrently plays looped
 process Play (songName : string)
-    Music.PlayFile (songName)
-    playing := true
+    loop
+	Music.PlayFile (songName)
+	exit when not (playing)
+    end loop
 end Play
 
 % procedures
@@ -152,12 +171,14 @@ body procedure resetPage
 	GUI.Dispose (buttons (i))
     end for
     links := 0
+    pagesNum := 0
     buttonsNum := 0
     new buttons, buttonsNum
     new xUpper, links
     new xLower, links
     new yUpper, links
     new yLower, links
+    new pages, links
     % Reset Pictures
     for i : 1 .. picsNum
 	Pic.Free (pics (i))
@@ -176,6 +197,7 @@ procedure loadPage (address : string)
     resetPage
     if not (File.Exists (address)) then
 	Font.Draw ("404 Page Not Found", margin, y, headerFont, black)
+	height += headerSpace
 	return
     end if
     var temp : string
@@ -238,6 +260,7 @@ procedure loadPage (address : string)
 		height += normalSpace
 		height += Pic.Height (pics (picsNum))
 	    label "music" :
+		playing := true
 		fork Play (text)
 	    label :
 		Font.Draw (text, margin, y, normalFont, black)
@@ -248,10 +271,6 @@ procedure loadPage (address : string)
     end loop
     % end close
     close : pagefileId
-    % Save on resources
-    if links > 0 then
-	fork checkMouse
-    end if
 end loadPage
 % handles the clicking
 body procedure addressBar_handle (address : string)
@@ -273,8 +292,10 @@ procedure quitBrowser
 end quitBrowser
 % init (make sure to put this LAST)
 procedure initUI
-    addressBar := GUI.CreateTextField (50, maxy - 60, maxx - 250, "pages/linktest.txt", addressBar_handle)
+    addressBar := GUI.CreateTextField (50, maxy - 60, maxx - 250, "home/index.txt", addressBar_handle)
     quitButton := GUI.CreateButton (maxx - 80, maxy - 60, 0, "EXIT", quitBrowser)
+
+    GUI.SetMouseEventHandler (checkMouse)
 end initUI
 % main thing
 initUI
