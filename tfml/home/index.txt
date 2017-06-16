@@ -1,0 +1,30 @@
+header
+Computer Programmers and Interactive Media Developers (NOC 2174)
+n
+Welcome to CPIMD.txt, to begin, why not look around? In the mean time, take a look around!
+picture
+images/jobicon.bmp
+link
+What is it?
+job/job_description.txt
+link
+What will I do?
+job/job_duties.txt
+link
+Who will hire me?
+job/employers.txt
+link
+What do they expect of me?
+job/market_req.txt
+link
+What are my chances?
+job/outlook.txt
+link
+How much will I earn?
+job/wage_table.txt
+link
+How can I get training?
+university/index.txt
+link
+How are you sure?
+home/ref.txt

@@ -1,0 +1,37 @@
+header
+Responsibilities
+music
+sound/waltz.mp3
+n
+The average developer is expected to perform many functions in the course
+n
+of his or her employment. These typically include:
+space
+
+n
+    -Identifying and communicating any technical problems encountered
+n
+    -Working with a team to develop programs to predefined specifications
+n
+    -Program graphics/special effects to predefined specifications
+n
+    -Communicate effectively with other departments in order to facilitate progress
+n
+    -Create GUI(Graphical User Interfaces) for various media, such as games
+n
+    -Write, edit, and test software code for interactive Media
+n
+    -Update existing programs as required
+n
+    -Prepare reports, manuals, and other Documentation on the status of software.
+n
+    -Collect and document user specifications and requiremnts
+n
+    -Develop logical and physical specifications
+n
+    -Research and evaluate other software products
+n
+    -Write code for e-commerce and other internet applications
+link
+Back
+home/index.txt

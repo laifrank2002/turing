@@ -1,0 +1,97 @@
+header
+Computer Science (regular/co-op)(Waterloo)
+picture
+images/waterloo.bmp
+sound
+Edward Elgar Pomp and Circumstance.mp3
+header
+Entrance Requirements
+normal
+A minimum final combined average of 80% is required for:
+normal
+MHF4U
+normal
+MCV4U
+normal
+Any 4U English
+normal
+Plus:
+normal
+1 other 4U course
+normal
+2 additional 4U/M courses
+normal
+Recommended: ICS3U
+normal
+Admission Information Form (AIF) required. Instructions sent with acknowledgement of application from Waterloo.
+normal
+You're strongly encouraged to write the Euclid Mathematics Contest. The Canadian Computing Competition is recommended.
+header
+Length of Program
+normal
+32 months
+header
+Cost
+normal
+$36092.00
+header
+Training/Courses
+normal
+Introduction to Computing through Applications,Introduction to Computer Programming 1,
+normal
+Introduction to Computer Programming 2,Introduction to Computer Science 1, 
+normal
+Introduction to Computer Science 2, Introduction to Computer Science 2,Elementary Algorithm Design and Data Abstraction, 
+normal
+Programming Principles, Introduction to Data Abstraction and Implementation, Designing Functional Programs (Advanced Level),
+normal
+ Elementary Algorithm Design and Data Abstraction (Advanced Level), Concepts for Advanced Computer Usage, 
+normal
+Introduction to Computers and Computer Systems, Algorithmic Problem Solving, Data Types and Structures, 
+normal
+Data Structures and Data Management,Data Structures and Data Management (Enriched), Foundations of Sequential Programs, 
+normal
+Foundations of Sequential Programs (Enriched), Logic and Computation,Logic and Computation (Enriched), 
+normal
+Object-Oriented Software Development, Object-Oriented Software Development (Enriched), Software Engineering Principles, 
+normal
+Computer Organization and Design, Management Information Systems, 
+normal
+Computational Methods in Business and Finance, Computer Applications in Business: Databases, Algorithms, 
+normal
+Concurrent and Parallel Programming, Introduction to Database Management, User Interfaces, Operating Systems, 
+normal
+Introduction to the Theory of Computing, Models of Computation, Numerical Computation, 
+normal
+Introduction to Computational Mathematics, Computational Digital Art Studio, Topics in Computer Science, 
+normal
+Readings in Computer Science, Applications Software Engineering, Business Systems Analysis, 
+normal
+Networks and Distributed Computer Systems, Principles of Programming Languages, Compiler Construction, 
+normal
+Software Requirements  Specification and Analysis, Software Design and Architectures, 
+normal
+Software Testing Quality Assurance and Maintenance, DAtabase Systems Implementation, Human-Computer Interaction, 
+normal
+Computer Architecture, Data-Intensive Distributed Computing, Real-time Programming, Distributed Systems, Computer Networks, 
+normal
+System Performance Evaluation, Computer Security and Privacy, Formal Languages and Parsing, 
+normal
+Algoritnormalhm Design and Analysis, Introduction to Quantum Information Processing, Computational Linear Algebra, 
+normal
+Numeric Computation for Financial Modeling, Computation Techniques in Biological Sequence Analysis, Computational Vision, 
+normal
+Machine Learning : Statistical and Computational Foundations, Introduction to Artificial Intelligence, 
+normal
+Introduction to Symbolic Computation, Introduction to Computer Graphics, Advanced Topics in Computer Science, 
+normal
+Information Systems Management, The Social Implications of Computing, Multidisciplinary Studies in Computer Science, 
+normal
+Readings in Computer Science, Honours Thesis.
+header
+Credentials
+normal
+Bachelor of Computer Science, BCS Bachelor of Mathematics, BMath
+link
+BACK
+pages/home.txt

@@ -1,0 +1,20 @@
+header
+Educational Options
+music
+sound/pomp_loop.mp3
+n
+On the topic of educational options, many are presented.There are many more listed, but the ones
+n
+that are recommended today are Langara, University of Windsor, and Waterloo.
+link
+Waterloo
+university/waterloo.txt
+link
+Windsor
+university/windsor.txt
+link
+Langara
+university/langara.txt
+link
+Back to home!
+home/index.txt

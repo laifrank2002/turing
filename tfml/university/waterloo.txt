@@ -1,0 +1,241 @@
+header
+Waterloo
+music
+sound/Edward Elgar Pomp and Circumstance.mp3
+picture
+images/waterloo.bmp
+header
+Entrance Requirements
+n
+A minimum FCA(Final Combined Average) of 80% is required for the following courses
+space
+
+n
+MHF4U, MCV4U, Any Grade 12 University Level English.
+n
+Plus an additional University Level course and two University Level or University
+n 
+or College Level courses. (Also known as 2 4U/M courses)
+n
+An additional course is recommended in ICS3U is strongly recommended.
+space
+
+n
+An AIF(Admission Information Form) is also required.You can find the information online at the
+n
+Waterloo Website.You're also strongly encouraged to write the 
+n
+Euclid Math Contest, and also CCC in order to both qualify for scholarships
+n
+and to increase your chances of getting in.
+space
+
+header
+Length of Program
+n
+The average length of the program is 8 terms, or 4 years considering 2 terms per semester. 
+n
+Since this is a co-op program, it will consist of alternating work-study periods.
+space
+
+n
+Please note that length of the program may vary with course selection. Certain combinations of
+n
+courses may take more or less time and may significantly vary results. Please do take this with
+n
+a grain of salt.
+space
+
+header
+Cost of Program
+n
+The figures obtained is approx. $36,000. This is based on multiplying the cost of one single year for
+n
+domestic students by 4. Since Waterloo's programs are co-op, those costs may go up or down based on
+n
+how work goes. Do remember the cost of living fees and other expenses like mandatory meal plans are not
+n
+included. This cost ranges from $-100,000 to $100,000 depending on how you manage your finances and how
+n
+often you apply for the multitude of scholarships. Apply for scholarships!
+space
+
+header
+Courses Offered
+n
+There are many courses offered for the BoCS here at Waterloo. Below is ALL of them, from the 0s to the 400s.
+n 
+In ascending order.
+space
+
+n
+    -Introduction to Computing through Applications,
+n
+    -Introduction to Computer Programming 1,
+n
+    -Introduction to Computer Programming 2,
+n
+    -Introduction to Computer Science 1,
+n
+    -Introduction to Computer Science 2,
+n
+    -Elementary Algorithm Design and Data Abstraction,
+n
+    -Programming Principles,
+n
+    -Introduction to Data Abstraction and Implementation,
+n
+    -Designing Functional Programs (Advanced Level),
+n
+    -Elementary Algorithm Design and Data Abstraction (Advanced Level),
+n
+    -Concepts for Advanced Computer Usage,
+n
+    -Introduction to Computers and Computer Systems, 
+n
+    -Algorithmic Problem Solving,
+n
+    -Data Types and Structures, 
+n
+    -Data Structures and Data Management,
+n
+    -Data Structures and Data Management (Enriched),
+n
+    -Foundations of Sequential Programs, 
+n
+    -Foundations of Sequential Programs (Enriched),
+n
+    -Logic and Computation,
+n
+    -Logic and Computation (Enriched),
+n
+    -Object-Oriented Software Development,
+n
+    -Object-Oriented Software Development (Enriched),
+n
+    -Software Engineering Principles,
+n
+    -Computer Organization and Design,
+n
+    -Management Information Systems,
+n
+    -Computational Methods in Business and Finance,
+n
+    -Computer Applications in Business: Databases,
+n
+    -Algorithms, Concurrent and Parallel Programming,
+n
+    -Introduction to Database Management,
+n
+    -User Interfaces,
+n
+    -Operating Systems,
+n
+    -Introduction to the Theory of Computing, 
+n
+    -Models of Computation, 
+n
+    -Numerical Computation, 
+n
+    -Introduction to Computational Mathematics, 
+n
+    -Computational Digital Art Studio, 
+n
+    -Topics in Computer Science, 
+n
+    -Readings in Computer Science, 
+n
+    -Applications Software Engineering, 
+n
+    -Business Systems Analysis, 
+n
+    -Networks and Distributed Computer Systems, 
+n
+    -Principles of Programming Languages, 
+n
+    -Compiler Construction, 
+n
+    -Software Requirements : Specification and Analysis, 
+n
+    -Software Design and Architectures, 
+n
+    -Software Testing Quality Assurance and Maintenance, 
+n
+    -Software Design and Architectures, 
+n
+    -Software Testing Quality Assurance and Maintenance, 
+n
+    -Database Systems Implementation,
+n
+    -Human-Computer Interaction,
+n
+    -Computer Architecture,
+n
+    -Data-Intensive Distributed Computing, 
+n
+    -Real-time Programming, 
+n
+    -Distributed Systems, 
+n
+    -Computer Networks, 
+n
+    -System Performance Evaluation, 
+n
+    -Computer Security and Privacy, 
+n
+    -Formal Languages and Parsing, 
+n
+    -Algorithm Design and Analysis,
+n
+    -Introduction to Quantum Information Processing, 
+n
+    -Computational Linear Algebra, 
+n
+    -Numeric Computation for Financial Modeling, 
+n
+    -Computation Techniques in Biological Sequence Analysis, 
+n
+    -Computational Vision, 
+n
+    -Machine Learning : Statistical and Computational Foundations, 
+n
+    -Introduction to Artificial Intelligence, 
+n
+    -Introduction to Symbolic Computation, 
+n
+    -Introduction to Computer Graphics, 
+n
+    -Advanced Topics in Computer Science, 
+n
+    -Information Systems Management, 
+n
+    -The Social Implications of Computing, 
+n
+    -Multidisciplinary Studies in Computer Science, 
+n
+    -Readings in Computer Science, 
+n
+    -Honours Thesis.
+space
+
+n
+And that are all the courses you get to take for the BoCS program at Waterloo!
+space
+
+header
+Credentials
+n
+For reading all of that: you get nothing. However, if you also take all of those courses
+n
+and graduate from Waterloo, you get a shiny Bachelor's of Computer Science Degree!
+n
+If that seems daunting, perhaps try some other schools! Or look at the market outlook!
+link
+Langara
+university/langara.txt
+link
+Market Outlook
+job/outlook.txt 
+link
+Back to home!
+university/index.txt

@@ -1,0 +1,27 @@
+header
+Wage Data
+music
+sound/waltz.mp3
+table
+2
+Wage  
+Amount  
+table
+2
+Median
+$80,000 
+table
+2
+NVIDIA
+$100,000
+table
+2
+BTTFLY
+$50,000 
+table
+2
+KYDATA
+$80,000 
+link
+Back Home!
+home/index.txt

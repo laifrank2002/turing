@@ -1,0 +1,11 @@
+header
+Welcome to Turing Browser! To begin! Go somewhere!
+button
+Next
+pages/newpage.txt
+button
+Sound
+pages/sound.txt
+button
+Pictures
+pages/pictures.txt

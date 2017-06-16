@@ -1,0 +1,44 @@
+header
+Job Description
+music
+sound/waltz.mp3
+n
+A typical Computer Programmer / Interactive Media Developer has many functions and duties.
+n
+He/She is also has many titles, these include:
+n
+Application Programmer, Business Application Programmer, Computer Game Developer, Computer Programmer,
+n
+E-Business Software Developer, Interactive Media Developer, OS Programmer, Multimedia Programmer,
+n
+Programmer Analyst, Scientific Programmer, Software Developer, Software Programmer, Systems Programmer, 
+n
+and Web Programmer.
+space
+
+n
+This is a typical job description for Interactive Media Developers
+space
+
+n
+The Interactive Media Developer will be expected to assist with the development
+n
+of various programs and animations/ graphics for GUIs to predefined specifications.
+n
+The Developer is expected to work well in a team, and to have excellent
+n
+communication skills to be able to communicate both within the team and
+n
+with other departments, such as Marketing. Will be expected to be fluent in
+n
+GUI, and Object Orientated Programming in their respective languages or the
+n
+one(s) required by the team.
+space
+
+link
+What are my responsibilities?
+job/job_duties.txt
+link
+Back
+home/index.txt

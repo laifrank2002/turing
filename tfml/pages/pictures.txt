@@ -1,0 +1,8 @@
+header
+FEAST YOUR EYES!
+normal
+Some Pictures
+picture
+banner.bmp
+normal
+NOW SOME TEXT!

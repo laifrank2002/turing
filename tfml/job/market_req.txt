@@ -1,0 +1,25 @@
+header
+Usual Market Requirements
+music
+sound/waltz.mp3
+n
+In order to become a Computer Programmer / Interactive Media Developer, You will need:
+space
+
+n
+Either:
+n
+A Diploma in Interactive Media Design
+n
+A Diploma in Computer Studies
+n
+A B.A (Bachelor's Associate) in Graphic Design
+n
+A Bachelor's of Computer Science
+space
+
+n
+Experience is an Asset
+link
+Go back!
+home/index.txt

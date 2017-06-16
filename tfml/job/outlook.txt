@@ -1,0 +1,15 @@
+header
+Market Outlook for NOC 2174 
+music
+sound/waltz.mp3
+header
+(Computer Programmers and Interactive Media Developers)
+n
+The information can be found in the popup.Yellow represents a star, grey represents 
+n
+a lack of, and black means no information availible.
+exe
+startest.exe
+link
+Back to home!
+home/index.txt

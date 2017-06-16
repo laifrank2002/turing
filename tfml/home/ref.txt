@@ -1,0 +1,49 @@
+header
+References
+normal
+These are the appropriate citations for the information gathered :
+space
+
+n
+Government of Canada, Employment and Social Development Canada. (2015, February 10). National Occupational Classification. Retrieved May 17, 2017, 
+n
+from http://noc.esdc.gc.ca/English/noc/ProfileQuickSearch.aspx?val=2&val1=2174&ver=16&val65=developer
+space
+
+n
+AAEAAQAAAAAAAAg9AAAAJDgxOWYxOGZjLTk4N2MtNDJkNy04ZmI4LTkxMTAwNjQzODIyZA [Interactive Media]. (n.d.). Retrieved May 17, 2017 
+n
+from https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAg9AAAAJDgxOWYxOGZjLTk4N2MtNDJkNy04ZmI4LTkxMTAwNjQzODIyZA.jpg
+space
+
+n
+"Job Bank Your Career Starts Here." Home - Job Bank. 04 Apr. 2017. Web. 17 May 2017. Explore Careers - Outlook Report. (2017, April 04). 
+n
+Retrieved May 17, 2017,  from https://www.jobbank.gc.ca/LMI_report_bynoc.do?reportOption=outlook&noc=2174
+space
+
+n
+Computer Science. (n.d.). Retrieved May 17, 2017, from https://langara.ca/programs-and-courses/programs/computer-science/
+space
+
+n
+(n.d.). Retrieved May 17, 2017, from http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-CS.html#CS100S
+space
+
+n
+A. (n.d.). Bachelor of Computer Science. Retrieved May 17, 2017, from http://www1.uwindsor.ca/cs/806/bachelor-of-computer-science
+space
+
+n
+Career Mash. (n.d.). Retrieved May 17, 2017 from, http://careermash.ca/careers/career-profiles/interactive-media-developer
+space
+
+n
+Statistics Canada. (n.d.). Retrieved May 18, 2017 
+n
+from, http://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=122372&CVD=122376&CPV=2174&CST=01012011&CLV=4&MLV=4
+space
+
+link
+Back to home!
+home/index.txt

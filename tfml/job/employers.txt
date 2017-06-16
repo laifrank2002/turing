@@ -1,0 +1,29 @@
+header
+Employers
+music
+sound/waltz.mp3
+space
+
+n
+The employers for this specific occupation are very narrow, as are it's uses.
+n
+Many employers are involved in software development, which is a specific field
+n
+Comprising of less than 1% of all employment in Canada. Some examples of employers
+n
+are private software development firms, game design firms, and IT consulting firms.
+n
+These include
+space
+
+n
+LES TECHNOLOGIES VIRTUELLES INTÉGRÉES INC.(A French Media Company)
+n
+NVIDIA Development Inc. (A Game Design and Graphical Chip maker)
+n
+BUTTERFLY ENERGY SYSTEMS INC. (An IT consultant firm)
+n
+KeyData Associates Inc. (An IT consultant firm/ software developer)
+link
+Back to home!
+home/index.txt

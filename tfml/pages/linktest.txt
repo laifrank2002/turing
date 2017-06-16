@@ -1,0 +1,17 @@
+header
+LinkTest
+link
+Back to Home
+pages/home.txt
+link
+Sound
+pages/sound.txt
+link
+Pictures
+pages/pictures.txt
+link
+Next
+pages/newpage.txt
+link
+Waterloo
+pages/waterloo.txt
