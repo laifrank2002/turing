@@ -1,0 +1,77 @@
+
+body {
+	background-image: url("Images/paper.jpg");
+}
+h1 {
+	margin: auto;
+	text-align: center;
+	font-size: 5em;
+	font-weight: 200;
+}
+table {
+	border-collapse: collapse;
+}
+table, th, td {
+	border: 1px solid black;
+	border-spacing: 0px;
+	width: 250px;
+	color: black;
+	background-color: rgb(200,255,175);
+}
+.Buttons{
+	margin: 0 auto;
+	width: 900px;
+	height: 210px;
+}
+p.wordcount {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.attributes {
+	position: absolute;
+	top:10px;
+	left:10px;
+}
+.writeButton {
+	text-align: center;
+}
+.write{
+	display:block; /* change this from inline-block */
+    width:20%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+	background-color: "gray";
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width : 10em;
+}
+.publishButton {
+	text-align: center;
+}
+.otherButton {
+	text-align: center;
+	background-color: green;
+}
+.publish{
+	display:block; /* change this from inline-block */
+    width:20%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+	background-color: red;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	width : 20em;
+}

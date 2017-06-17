@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<!--Meta Tags-->
+		<meta charset = "UTF-8">
+		<meta name="description" content="Free Web tutorials">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="Frank Lai">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="script.js"></script>
+		<title> Writer </title>
+		<link rel="stylesheet" type = "text/css" href = "style.css"/>
+    </head>
+
+    <body>
+		<h1> Idle Writer</h1>
+        <p type="text" id="wordcount" class = "wordcount">You have written 0 words</p>
+		<!-- Central Buttons -->
+		<div class="Buttons" style = "border :1px solid black;">
+			<div class="writeButton">
+				<button type="button" onclick="increaseWords()" class="write" id = "write">Write</button>
+				<button type="button" onclick="sellWords()" class="write" id = "write">Sell penny poetry</button>
+				<button type="button" onclick="increaseInspiration()" class="write" id = "write">Drink a pop</button>
+				<button type="button" onclick="increaseParagraph()" class="write" id = "write">Write a paragraph</button>
+				<button type="button" onclick="increaseChapter()" class="write" id = "write">Finish a chapter</button>
+				<button type="button" onclick="autoConvertCheck()" class = "write" id = "write">Hire/Fire an Editor</button>
+			</div>
+			<div class="publishButton">
+				<button type="button" onclick="writeBook()" class = "publish"> Publish Your Book!</button>
+			</div>
+			<div class="otherButton">
+				<button type="button" onclick="buyLots()" class = "multiply" id = "multiply">   </button>
+			</div>
+		</div>
+		<!-- Attribute Text -->
+		<div class="attributes">
+			<table>
+				<tr>
+					<th> <p type="text"> Resource </p> </th>
+				</tr>
+				<tr>
+					<td> <p type="text" id="inspiration">You have 1 inspiration</p></td>
+				</tr>
+				<tr>
+					<td> <p type="text" id="money">You have 0.00 dollars</p></td>
+				</tr>
+				<tr>
+					<td> <p type="text" id="paragraph">You have 0 paragraphs</p></td>
+				</tr>
+				<tr>
+					<td> <p type="text" id="chapter">You have 0 chapters</p></td>
+				</tr>
+				<tr>
+					<td> <p type="text" id="bookprice">Your book costs 0.00 dollars</p></td>
+				</tr>
+				<tr>
+					<td> <p type="text" id="fans">You have 0 dedicated fans</p></td>
+				</tr>
+			</table>
+			<p type = "text" id = "autoConvert">
+			You are not hiring an editor
+			</p>
+		</div>
+		<div class="exchanterates">
+			<p> Writes 5 words per click</p>
+			<p> Sells 10 words for a penny</p>
+			<p> A soda costs 10 pennies and gives you 1/4 inspiration</p>
+			<p> 100 words is a paragraph, 100 paragraphs are in a chapter.</p>
+			<p> Each chapter sells for $1.00 for the price</p>
+			<p> 1 fan will buy 1 book every second </p>
+			<p> Scrap your old book to publish your new book </p>
+			<p> You must at least have 10 chapters, and you will gain 1 new fan for every chapter you publish</p>
+		</div>
+		<div class="credits">
+			<p> &copy; Frank Lai 2002, 2017 - 2018, franklai2002@gmail.com, version 0.003</p>
+		</div>
+	</body>
+</html>
