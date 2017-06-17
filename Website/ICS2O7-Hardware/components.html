@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>How to Computer</title>
+		<meta charset="UTF-8" />
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Site Icon -->
+		<link rel="icon" href="icon.ico">
+		
+	</head>
+
+	<body>
+		<!-- Welcome to Div Soup-->
+		<!-- First Stop, Navigation -->
+		<ul class = "nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="components.html">Components</a></li>
+			<li><a href="sources.html">Sources</a></li>
+			<li><a href="http://www.dell.com/en-ca/" target="_blank">Dell Support</a></li>
+			<li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flaifrank2002.github.io%2FICS-Hardware-Project-CCJF%2Fcomponents.html" target="_blank">Validated</a></li>
+			<li><button onclick="audioInterface()" class = "button">Play/Mute</button></li>
+		</ul>
+		
+		<!-- The Liberty Bell March -->
+		<audio loop id="theme">
+			<source src="LibertyBellMarchRecovered.ogg" type="audio/ogg">
+			<source src="LibertyBellMarchRecovered.mp3" type="audio/mpeg">
+			Your browser does not support the audio tag.
+		</audio>
+		<script src="audio.js"></script>
+		
+		<!-- Second Stop, Content-->
+		<!-- info parts-->
+		<div class= "content">
+			<article style="border-bottom : solid;">
+				<h1>Components</h1>
+				
+				<h2 id="motherboard">Motherboard</h2>
+				<img src="images/Motherboard.jpg" alt="Image of a motherboard">
+				<p>The motherboard is the internal component of a computer that carries the CPU, expansion slots, 
+				power connectors, memory chips (RAM and ROM), other microchips needed to function. It is also known 
+				as the mainboard, baseboard, logic board, system board, etc. </p>
+				
+				<h2 id="cpu">CPU</h2>
+				<img src="images/CPU.jpg" alt="Image of a CPU">
+				<p>CPU stands for Central Processing Unit. The CPU is a small electronic component that is occasionally 
+				called the brain of the PC. The CPU is responsible for two things. One of them is to carry out commands 
+				to make the other hardware parts perform the action. The other responsibility is to process data. Although 
+				the instructions the CPU performs are simple, they can execute millions and millions of instructions every 
+				second.  The fact that the CPU can perform many tasks is what makes a PC powerful.</p>
+				
+				<h2 id="ram">RAM</h2>
+				<img src="images/RAM.jpg" alt="Image of two RAM">
+				<p>(Random Access Memory)
+				RAM is a card connected to the motherboard which is used to temporarily store information. As soon as 
+				computer is turned off, information not saved inside the hard drive won’t be able to be recalled. The CPU 
+				uses RAM when it’s operating because it needs to store temporary data while is operating. If more of RAM is 
+				present inside the CPU, the faster the computer is since more data can be stored temporarily.</p>
+				
+				<h2 id="powersupply">Power Supply</h2>
+				<img src="images/Powersupply.jpg" alt="Image of a power supply">
+				<p>The power supply is required to transform the incoming AC power into 5V and 12V DC power the other 
+				internal components of the PC. </p>
+				
+				<h2 id="soundcard">Sound Card</h2>
+				<img src="images/Soundcard.jpg" alt="Image of a sound card">
+				<p>The sound card, also known as audio card, is an internal expansion card. The sound card provides
+				input and output of audio signal to and from the computer. </p>
+				
+				<h2 id="videocard">Video Card</h2>
+				<img src="images/Videocard.jpg" alt="Image of a video card">
+				<p>Video Card displays image(s) on the monitor. It gets its data from the CPU and stores the information 
+				to video RAM. It’s ported by the AGP (Accelerated Graphics Port). Inside the video card, there is a special 
+				video card that scans the data and converts it to a digital image. </p>
+				
+				<h2 id="heatsink">Heat Sink and Fan</h2>
+				<img src="images/Heatsink.jpg" alt="Image of a heat sink and fan">
+				<p>The heat sink converts the generated heat from the device into a fluid medium, usually a liquid coolant 
+				or air to regulate the temperature of the CPU. </p>
+				<p>The fan is the black component beside the heat sink. The fan cools some of the components of the PC from 
+				overheating and damaging the parts. There is a fan on the CPU and power supply. The CPU performs millions 
+				of task per second so to prevent it from overheating while performing the millions of task the fan is 
+				used. The power supply converts the electricity so to also prevent it from overheating the fan is used.</p>
+				
+				<!--DATABUS goes here-->
+				<h2 id="databus"> Data Bus </h2>
+				<img src="images/Databus.jpg" alt="Image of a Data Bus">
+				<p>Data Bus is a communication system that transfers data between components in the computer and out of the computer. 
+				</p>
+				
+				<h2 id="bios">BIOS</h2>
+				<img src="images/Motherboard.jpg" alt="Image of a motherboard including the BIOS">
+				<p>(Basic Input/Output System)
+				BIOS is a common use of a flash memory. BIOS is a chip found in the motherboard that instructs the computer 
+				how to do basic functions such as booting and keyboard control. It identifies and configures data from the 
+				hardware in a computer</p>
+				
+				<h2 id="floppydiskdrive">Floppy Disk Drive</h2>
+				<img src="images/Floppydisk.jpg" alt="Image of a floppy disk drive">
+				<p>The floppy disk drive is a component that reads data from a floppy disk with RAM memory,  a magnetic 
+				disk that stores data used in the mid-1970s toward the mid-2000s.</p>
+				
+				<h2 id="cd-romdrive">CD-ROM Drive</h2>
+				<img src="images/CDROM.jpg" alt="Image of a CD-ROM drive">
+				<p>CPU stands for Central Processing Unit. The CPU is a small electronic component that is occasionally 
+				called the brain of the PC. The CPU is responsible for two things. One of them is to carry out commands 
+				to make the other hardware parts perform the action. The other responsibility is to process data. Although 
+				the instructions the CPU performs are simple, they can execute millions and millions of instructions every 
+				second.  The fact that the CPU can perform many tasks is what makes a PC powerful.</p>
+				
+				<h2 id="harddrive">Hard Drive</h2>
+				<img src="images/Harddrive.jpg" alt="Image of a hard drive">
+				<p>Hard disk drive is a non-volatile memory hardware device that saves up information permanently. Data 
+				sent to hard drive is manipulated by the disk controller, where it reads the data saved on one of the CDs. 
+				The electromagnetic head reads the signal, whether it’s 0 or 1, and calculates the information.</p>
+
+			</article>
+		</div>
+		
+		<footer>
+			<p>
+				Created by Frank, Cindia, Catherine, and James as part of their Intermediate Computer Science Course at Victoria Park Public School.
+			</p>
+			<p>
+				Got a problem? Email <a href = "mailto:support@CCFJ.com"> support@CCFJ.com </a> for more info.
+			</p>
+			<p>
+				All Copyright relinquished to the TDSB for marking purposes.
+				</p>
+			<p>
+				Go back <a href ="#top"> up </a> !
+			</p>
+		</footer>
+		
+	</body>
+</html>

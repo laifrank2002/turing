@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>How to Computer</title>
+		<meta charset="UTF-8" />
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Site Icon -->
+		<link rel="icon" href="icon.ico">
+		
+	</head>
+
+	<body>
+		<!-- Welcome to Div Soup-->
+		<!-- First Stop, Navigation -->
+		<ul class = "nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="components.html">Components</a></li>
+			<li><a href="sources.html">Sources</a></li>
+			<li><a href="http://www.dell.com/en-ca/" target="_blank">Dell Support</a></li>
+			<li><a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flaifrank2002.github.io%2FICS-Hardware-Project-CCJF%2F" target="_blank">Validated</a></li>
+			<li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flaifrank2002.github.io%2FICS-Hardware-Project-CCJF%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en">CSS</a></li>
+			<li><button onclick="audioInterface()" class = "button">Play/Mute</button></li>
+		</ul>
+		
+		<!-- The Liberty Bell March -->
+		<audio loop id="theme">
+			<source src="LibertyBellMarchRecovered.ogg" type="audio/ogg">
+			<source src="LibertyBellMarchRecovered.mp3" type="audio/mpeg">
+			Your browser does not support the audio tag.
+		</audio>
+		<script src="audio.js"></script>
+		
+		<!-- Second Stop, Content-->
+		<div class= "content">
+			<h1 style="border-bottom : solid;" id ="top">Cindia, Catherine, James, and Frank&rsquo;s Intermediate Computer Science Website</h1>
+			<!-- Just add these. Simple and each to use.-->
+			<article style="border-bottom : solid;">
+				<h2>Introduction</h2>
+				<p>
+					Welcome to our website. If you&rsquo;ve stumbled upon this in the year 2117 where you desperately need to find the manual on how to fix
+					a dell computer for God knows what reason, the dell support website will work well. Bye!
+				</p>
+				<p>
+					Otherwise, welcome to this website! On here you will find our week-long adventures in taking apart and then reassembling a dell computer,
+					then proceeding to write a paper on it. Paper is availible below, full paper availible for purchase on Amazon.
+				</p>
+			</article>
+			
+			<article style="border-bottom : solid;">
+				<h2>How a computer works</h2>
+				<img src="images/Before.jpg" alt = "This image is not availible" />
+				<p>
+					First, when the user turns on the computer, the system software tells the CPU to start up and turn on certain programs and hardware 
+					components. Then the computer is ready for more input by the user. This process is called booting up.
+				</p>
+				<p>
+					The next thing that happens is when the user clicks on a program. The CPU gets the input to run the program and 
+					outputs the program onto the monitor. If the user decides to play a video the CPU will get the input, tell the 
+					sound and video cards to output a certain sound/colour. The user then is able to listen and look at the video. 
+					As the CPU performs the task, it needs to store and change some info from the RAM, BIOS and hard drive. As the 
+					computer gets the input and give out the output it gets the power to run by the power supply. The fan makes sure
+					as it’s running nothing overheats which may damage the hardware components and affect the performance speed. To
+					make sure the info from the CPU gets to another place, for example the video card, the motherboard is used.
+				</p>
+				<p>
+					These components are required to perform tasks the user sets out to the computer to accomplish and to manage the
+					PC’s overall performance. Each component needs to be able to do the specific task or else the computer will never be able to perform the tasks it&rsquo;s meant to perform.
+				</p>
+			</article>
+			
+			<article style="border-bottom : solid;">
+				<h2>All the Components</h2>
+				<a href = "components.html">
+				<img src="images/Allofthem.jpg" alt = "This image is not availible"/>
+				</a>
+				<div class = "imgContainerTable">
+					<div class = "imgContainerRow">
+						<h3 style="margin-right:5%;" class="imgContainerHeading"> Motherboard </h3>
+						<h3 style="margin-right:5%;" class="imgContainerHeading"> CPU </h3>
+						<h3 style="" class="imgContainerHeading"> RAM </h3>
+						<a href = "components.html#motherboard">
+						<img src="images/Motherboard.jpg" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem" />
+						</a>
+						<a href = "components.html#cpu">
+						<img src="images/CPUback.jpg" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem" />
+						</a>
+						<a href = "components.html#ram">
+						<img src="images/RAM.jpg" alt = "This image is not availible" style="" class="imgContainerItem" />
+						</a>
+					</div>
+					<div class = "imgContainerRow">
+						<h3 style="margin-right:5%;" class="imgContainerHeading"> Power Supply </h3>
+						<h3 style="margin-right:5%;" class="imgContainerHeading"> Sound Card </h3>
+						<h3 style="" class="imgContainerHeading"> Video Card </h3>
+						<a href = "components.html#powersupply">
+						<img src="images/Powersupply.jpg" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem" />
+						</a>
+						<a href = "components.html#soundcard">
+						<img src="images/Soundcard.jpg" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem" />
+						</a>
+						<a href = "components.html#videocard">
+						<img src="images/Videocard.jpg" alt = "This image is not availible" style="" class="imgContainerItem" />
+						</a>
+					</div>
+					<div class = "imgContainerRow">
+						<h3 style="margin-right:5%;" class="imgContainerHeading"> Heat Sink and Fan</h3>
+						<h3 style="margin-right:5%;" class="imgContainerHeading"> Databus </h3>
+						<h3 style="" class="imgContainerHeading"> BIOS </h3>
+						<a href = "components.html#heatsink">
+						<img src="images/Heatsink.jpg" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem" />
+						</a>
+						<a href = "components.html#databus">
+						<img src="images/Databus.jpg" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem" />
+						</a>
+						<a href = "components.html#bios">
+						<img src="images/Before.jpg" alt = "This image is not availible" style="" class="imgContainerItem" />
+						</a>
+					</div>
+					<div class = "imgContainerRow">
+						<h3 style="margin-right:5%;" class="imgContainerHeading"> Floppy Disk Drive </h3>
+						<h3 style="margin-right:5%;" class="imgContainerHeading"> CD-ROM Drive </h3>
+						<h3	style="" class="imgContainerHeading"> Hard Drive </h3>
+						<a href = "components.html#floppydiskdrive">
+						<img src="images/Floppydisk.jpg" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem" />
+						</a>
+						<a href = "components.html#cdrom">
+						<img src="images/CDROM.jpg" alt = "This image is not availible" style="margin-right:5%;" class="imgContainerItem" />
+						</a>
+						<a href = "components.html#harddrive">
+						<img src="images/Harddrive.jpg" alt = "This image is not availible" style="" class="imgContainerItem" />
+						</a>
+					</div>
+				</div>
+			</article>
+			
+			<article style="border-bottom : solid;">
+				<h2>Before and After</h2>
+				<img src="images/Before.jpg" alt = "This image is not availible" style="width : 50%;float:left;" />
+				<img src="images/After.jpg" alt = "This image is not availible" style="width : 50%;float:right;" />
+				<p>
+					When we first started unboxing the PC, we found it very difficult because we didn’t know which components were 
+					which. We were also afraid that we might accidentally break the components, but we took out the parts successfully
+					and didn’t break a single thing. It was an amazing experience to deal with the material we studied for in real 
+					life. After we put it back together, we discovered that we took some other group’s RAM module. There were 
+					challenges while putting it back together, such as putting back the CD-RAM Drive, but we managed to finish the 
+					task successfully. It was a pleasant experience. 
+				</p>
+			</article>
+			
+		</div>
+		
+		<footer>
+			<p>
+				Created by Frank, Cindia, Catherine, and James as part of their Intermediate Computer Science Course at Victoria Park Public School.
+			</p>
+			<p>
+				Got a problem? Email <a href = "mailto:support@CCFJ.com"> support@CCFJ.com </a> for more info.
+			</p>
+			<p>
+				All Copyright relinquished to the TDSB for marking purposes.
+				</p>
+			<p>
+				Go back <a href ="#top"> up </a> !
+			</p>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+	background-color : white;
+	font-family : "Cambria","Calibri","Times New Roman","Serif";
+	margin: 0;
+}
+
+/* Vertical Navbar */
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 15%;
+	background-color : #383527;
+	font-size : 18px;
+	/* Auto Handle */
+	height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+/* Heading */
+h2 {
+	font-size : 18px;
+}
+h3 {
+	font-size : 14px;
+}
+/* Dynamic */
+li a {
+	display: block;
+	color : grey;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+/* I really don't know why I have to do this */
+a:hover {
+	cursor: pointer;
+}
+/* Or this */
+.button {
+    background-color: inherit;
+    border: none;
+    color: grey;
+	font-family : inherit;
+    text-align: center;
+	font-size : inherit;
+    text-decoration: none;
+    display: block;
+	padding: 8px 16px;
+    cursor: pointer;
+}
+p {
+	display : table;
+}
+/* Regulation so no overlap, This is the content Div, all the content goes here.*/
+.content {
+	background-image: url("wallpaper.jpg");
+	margin-left : 15%; 
+	padding : 1px 16px;
+}
+/* makes it centered and looks nice*/
+article {
+	margin-left : 20%;
+	margin-right : 19%;
+	width : 60%;
+	background-image: url("blogpaper.jpg");
+	padding : 10px;
+}
+
+img {
+	/*display: block;*/
+    margin: auto;
+	width: 100%;
+}
+/* for displaying many images */
+.imageContainerTable {
+	display : table;
+}
+.imgContainerItem {
+	width:29.5%;
+	height : 75px;
+	float:left;
+	display : table-row	;
+}
+.imgContainerHeading {
+	float:left;
+	text-align : center;
+	width:29.5%;
+	display : table-row	;
+}
+/* makes the footer a footer */
+footer {
+	display : block;
+	background-color : #0c0a00;
+	color : grey; 
+	width : 100%;
+	text-align : center;
+	position: absolute;
+	height : 150px;
+
+}
